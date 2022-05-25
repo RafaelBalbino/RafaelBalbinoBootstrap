@@ -1,0 +1,28 @@
+body{
+    margin: 0px;
+}
+
+.bgO{
+    background-color: orange !important;
+    /* '!important' É mais importante que a configuração do Bootstrap */
+}
+
+.divCenter{
+    justify-content: center;
+}
+
+.fontBold{
+    font-weight: bold;
+    color: black;
+}
+
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+
+.video{
+    display: flex;
+    justify-content: center; /* Pega a caixinha de vídeo inteiro, e coloca pro centro */
+}
