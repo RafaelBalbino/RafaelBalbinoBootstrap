@@ -21,8 +21,8 @@
 
 <!-- Menu -->
 <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-danger bgO">
-    <a class="navbar-brand" href="#"><img src="assets/img/Dragonite circular icon.png" 
-     alt="" width="60px" margin="0px"></a>
+    <a class="navbar-brand" href="index.html"><img src="assets/img/Dragonite circular icon.png" 
+     alt="ìcone Dragonite" width="60px" margin="0px"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" 
     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
     aria-expanded="false" aria-label="Toggle navigation">
@@ -32,7 +32,7 @@
     </button>
 
     <!-- Configuração de responsividade para mobile/se o site diminuir -->
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
           <a class="nav-link fontBold" href="index.html" style="text-align:center">
@@ -47,6 +47,11 @@
         <li class="nav-item fontBold">
           <a class="nav-link" href="gengar.html">
             Site do Fantasma Roxo
+          </a>
+        </li>
+        <li class="nav-item fontBold">
+          <a class="nav-link" href="contato.html">
+            Meus Contatos
           </a>
         </li>
         <li class="nav-item dropdown fontBold">
@@ -103,11 +108,12 @@
 </div>
 <!-- Carousel -->
 
+<!-- Imagens/Gifs e textos do Dragonite -->
 <div class="container-fluid" style="background-color: #c79448">
   <div class="row">
     <div class="col-6">
       <img src="assets/img/DragoniteCarteiro.jpg" alt="Dragonite Carteiro"
-      style="width: 100%; height: 525px; margin-top: 15px; padding-bottom: 15px;">
+      style="width: 100%; height: 525px; margin-top: 15px; padding-bottom: 15px; border-radius: 10%;">
     </div>
     <div class="col-6" style="margin-top: 15px; padding-bottom: 15px; background-color: #c79448">
       <div class="container">
@@ -129,42 +135,7 @@
     </div>
   </div>
 </div>
-
-<!-- Form -->
-<div class="container-fluid" style="margin-top: 15px">
-  <div class="row">
-    <div class="col-2">
-    </div>
-    <div class="col-8">
-      <form>
-        <div class="form-group divCenter">
-          <label for="email" class="fontBold">E-mail:</label>
-          <input type="email" class="form-control" id="email" 
-          aria-describedby="emailHelp" placeholder="name@example.com" onkeyup="validarEmail()">
-        </div>
-        <div id="txtEmail"></div>
-        <div class="form-group divCenter">
-          <label for="nome" class="fontBold">Nome:</label>
-          <input type="nome" class="form-control" id="nome" placeholder="Seu nome aqui"
-          onkeyup="validarNome()">
-        </div>
-        <div id="txtNome"></div>
-        <div class="form-group">
-          <label for="assunto" class="fontBold">Assunto:</label>
-          <textarea class="form-control" id="assunto" rows="4" onkeyup="validarAssunto()"></textarea>
-        </div>
-        <div id="txtAssunto"></div>
-      <button type="submit" class="btn btn-primary" style="margin-left: 45%"
-      onclick="enviar()">Enviar</button>
-      </form>
-    </div>
-    <div class="col-2">
-    </div>
-  </div>
-</div>
-<!-- Form -->
-
-<hr>
+<!-- Imagens/Gifs e textos do Dragonite -->
 
 <!-- Vídeo -->
 <div class="container-fluid" style="margin-top:10px">
@@ -190,27 +161,6 @@
 <!-- Vídeo -->
 
 <hr>
-
-<!-- Card -->
-<div>
-  <div class="card" style="width: 20rem; justify-items: center; margin-top: 10px; margin-bottom: 10px;">
-    <img src="assets/img/Eu.png" class="card-img-top" alt="Rafael Ballabinute Balbino">
-    <div class="card-body">
-      <h5 class="card-title" style="text-align:center">Rafael Ballabinute Balbino</h5>
-      <h6 class="card-text" style="text-align:center">Criador do Site</h6> 
-      <p class="card-text" style="text-align:center;font-size: 15px;">Estudante de programação JAVA Web 
-        Turma 50</p>
-      <a href="https://www.linkedin.com/in/rafael-ballabinute-balbino" 
-      class="btn btn-primary" style="margin-right: 110px">LinkedIn</a>
-      <a href="https://github.com/RafaelBalbino" 
-      class="btn btn-dark">Github</a>
-    </div>
-  </div>
-</div>
-<!-- Card -->
-
-<hr>
-
 
 <!-- Footer -->
 <footer style="font-family:'Courier New', Courier, monospace; background-color:orange">
@@ -246,6 +196,5 @@
     </script>
 <!-- Javascript utilizado pelo Bootstrap e seus links 'npm'-->
 
-<script src="assets/js/script.js"></script>
 </body>
 </html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contatos</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" 
+crossorigin="anonymous">
+<link rel="stylesheet" href="assets/css/style.css"> 
+<link rel="icon" href="assets/img/EuIcon.PNG">
+</head>
+<body>
+
+<!-- Menu -->
+<ul class="nav justify-content-center" style="margin-bottom: 10px; background-color:rgb(0, 0, 0)">
+    <li class="nav-item">
+        <a class="nav-link active" href="index.html"><img src="assets/img/Dragonite circular icon.png" 
+          alt="Minha cara" width="60px" margin="0px" style="margin-top:3px"></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="gengar.html"><img src="assets/img/GengarIcon.png" 
+        alt="Site do Gengar" width="60px" margin="0px"></a>
+    </li>
+  </ul>
+<!-- Menu -->
+
+<!-- Form -->
+<div class="container-fluid" style="margin-top: 15px; margin-bottom: 10px;">
+    <div class="row">
+      <div class="col-3">
+        <!-- Card -->
+        <div>
+         <div class="card" style="width: 20rem; justify-items: center; margin-bottom: 10px;">
+        <img src="assets/img/Eu.png" class="card-img-top" alt="Rafael Ballabinute Balbino">
+         <div class="card-body">
+        <h5 class="card-title" style="text-align:center">Rafael Ballabinute Balbino</h5>
+        <h6 class="card-text" style="text-align:center">Criador do Site</h6> 
+        <p class="card-text" style="text-align:center; font-size: 15px;">Estudante de programação JAVA Web 
+            Tenho 20 Anos | Turma 50 </p>
+       </div>
+      </div>
+    </div>
+      <!-- Card -->
+      </div>
+      <div class="col-9">
+        <div>
+          <h3 style="margin-bottom: 15px; text-align: center;">
+            QUER ME CONTATAR? ENTÃO INSIRA SUAS INFORMAÇÕES</h3>
+        </div>
+        <form>
+          <div class="form-group divCenter" style="margin-bottom: 5px; margin-left: 10px;">
+            <label for="nome" class="fontBold">Nome:</label>
+            <input type="nome" class="form-control" id="nome" placeholder="Seu nome aqui"
+            onkeyup="validarNome()" style="text-align:center; margin-bottom: 20px;">
+          </div>
+          <div id="txtNome"></div>
+          <div class="form-group divCenter" style="margin-bottom: 5px; margin-left: 10px;">
+            <label for="email" class="fontBold">E-mail:</label>
+            <input type="email" class="form-control" id="email" 
+            aria-describedby="emailHelp" placeholder="name@example.com" onkeyup="validarEmail()"
+            style="text-align:center; margin-bottom: 20px;">
+          </div>
+          <div id="txtEmail"></div>
+          <div class="form-group divCenter" style="margin-bottom: 5px; margin-left: 10px;">
+            <label for="assunto" class="fontBold" style="text-align:center; margin-bottom: 20px;">
+             Assunto:</label>
+            <textarea class="form-control" id="assunto" rows="3" onkeyup="validarAssunto()"></textarea>
+          </div>
+          <div id="txtAssunto"></div>
+        <button type="submit" class="btn btn-primary btn-lg" style="margin-left: 45%"
+        onclick="enviar()">Enviar</button>
+        </form>
+      </div>
+      <div class="col-1"></div>
+    </div>
+  </div>
+<!-- Form -->
+
+<!-- Footer -->
+<footer style="font-family:'Courier New', Courier, monospace; background-color:rgb(0, 0, 0)">
+    <nav class="nav">
+        <h2 style="color: rgb(255, 255, 255); margin-top: 15px">
+            Página feita por Rafael Ballabinute Balbino™</h2>
+        <div style="margin-left:20px">
+            <a href = "https://www.linkedin.com/in/rafael-ballabinute-balbino">
+                <img height="60px" src="assets/img/logo linkedin.jpg">
+            </a>
+        </div>
+        <div style="margin-left: 10px">
+            <a href = "https://github.com/RafaelBalbino">
+                <img height="60px" width="170px" src="assets/img/github logo.png">
+            </a>
+        </div>
+    </nav>
+ </footer>
+<!-- Footer -->
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
