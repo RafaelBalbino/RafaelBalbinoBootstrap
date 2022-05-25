@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fantasma Roxo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" 
+        crossorigin="anonymous">
+    <!-- Acessa a classe de CSS (Bootstrap)-->
+
+    <link rel="stylesheet" href="assets/css/style.css"> 
+    <!-- Arquivo .css pra eu sobscrever coisas -->
+
+    <link rel="icon" href="assets/img/GengarAba.png">
+    <!-- Adicionando um ícone na aba do navegador -->
+</head>
+<body style="background-color:rgb(201, 146, 253)">
+    <!-- Menu -->
+<nav class="navbar navbar-expand-lg sticky-top navbar-light bg-danger bgG">
+    <a class="navbar-brand" href="#"><img src="assets/img/GengarIcon.png" 
+     alt="" width="60px" margin="0px"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" 
+    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+    aria-expanded="false" aria-label="Toggle navigation">
+
+      <span class="navbar-toggler-icon"></span>
+      <!-- Esconde o botão e muda o ícone -->
+    </button>
+
+    <!-- Configuração de responsividade para mobile/se o site diminuir -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link fontBold" href="index.html">PÁGINA INICIAL
+           <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item fontBold">
+          <a class="nav-link" href="https://getbootstrap.com/docs/4.6/getting-started/introduction/">
+            Site do Bootstrap
+          </a>
+        </li>
+        <li class="nav-item dropdown fontBold">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" 
+          role="button" data-toggle="dropdown" aria-expanded="false">
+           Alguns Links
+          </a>
+
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="https://www.pokemothim.net/2019/11/pocket-monsters.html">
+             Assista os Novos Episódios de Pokémon</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="https://pokemondb.net/pokedex/gengar">
+             Entrada Pokédex do Gengar</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="https://bulbapedia.bulbagarden.net/wiki/Gengar_(Pokémon)">
+             Bulbapedia do Gengar</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <form class="form-inline my-2 my-lg-0">
+      <a href="https://www.youtube.com/watch?v=vY-eBgPN0gQ&t=10s">
+        <button class="btn btn-primary btn-outline-dark btn-lg" type="button">
+         Vídeo de Skate
+        </button>
+      </a>
+    </form>
+  </nav>
+<!-- Menu -->
+
+<!-- Carousel -->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="assets/img/GengarFundo1.png" class="d-block w-100" alt="Fundo roxo com Gengar">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/img/FundoGengar2.jpg" class="d-block w-100" alt="Fundo roxo outro Gengar">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" 
+     data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" 
+     data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </button>
+  </div>
+<!-- Carousel -->
+
+<!-- Card -->
+<div>
+    <div class="card" style="width: 20rem; justify-items: center; margin-top: 10px; margin-bottom: 10px;">
+      <img src="assets/img/Eu.png" class="card-img-top" alt="Rafael Ballabinute Balbino">
+      <div class="card-body">
+        <h5 class="card-title" style="text-align:center">Rafael Ballabinute Balbino</h5>
+        <h6 class="card-text" style="text-align:center">Criador do Site</h6> 
+        <p class="card-text" style="text-align:center;font-size: 15px;">Estudante de programação JAVA Web 
+          Turma 50</p>
+        <a href="https://www.linkedin.com/in/rafael-ballabinute-balbino" 
+        class="btn btn-primary" style="margin-right: 110px">LinkedIn</a>
+        <a href="https://github.com/RafaelBalbino" 
+        class="btn btn-dark">Github</a>
+      </div>
+    </div>
+  </div>
+<!-- Card -->
+  
+<hr>
+  
+<!-- Footer -->
+  <footer style="font-family:'Courier New', Courier, monospace; background-color:blueviolet">
+    <nav class="nav">
+        <h2 style="color: rgb(14, 2, 2); margin-top: 15px">
+            Página feita por Rafael Ballabinute Balbino™</h2>
+        <div style="margin-left:20px">
+            <a href = "https://www.linkedin.com/in/rafael-ballabinute-balbino">
+                <img height="60px" src="assets/img/logo linkedin.jpg">
+            </a>
+        </div>
+        <div style="margin-left: 10px">
+            <a href = "https://github.com/RafaelBalbino">
+                <img height="60px" width="170px" src="assets/img/github logo.png">
+            </a>
+        </div>
+    </nav>
+ </footer>
+<!-- Footer -->
+
+<!-- Javascript utilizado pelo Bootstrap e seus links 'npm'-->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+crossorigin="anonymous">
+</script>
+<!-- Javascript utilizado pelo Bootstrap e seus links 'npm'-->
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>

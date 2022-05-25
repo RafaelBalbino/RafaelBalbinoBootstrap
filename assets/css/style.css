@@ -7,6 +7,9 @@ body{
     /* '!important' É mais importante que a configuração do Bootstrap */
 }
 
+.bgG{
+    background-color: blueviolet !important;
+}
 .divCenter{
     justify-content: center;
 }
