@@ -30,3 +30,17 @@ body{
     display: flex;
     justify-content: center; /* Pega a caixinha de vídeo inteiro, e coloca pro centro */
 }
+
+.navHD:hover {
+  background-color: #fccc84;
+  border-radius: 15px;
+  color: black !important;
+  transition: all .2s;
+}
+
+.navHG:hover {
+  background-color: rgb(201, 146, 253);
+  border-radius: 15px;
+  color: black !important;
+  transition: all .2s;
+}
